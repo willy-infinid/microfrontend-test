@@ -24,6 +24,6 @@ npm install
 npm start
 ```
 
-#Explanation
+# Explanation
 On the root folder, there is two react project as microfrontend, one is the account feature, one is the homepage feature.
 The homepage feature have two component (Header and Footer) that being exposed to account microfrontend via webpack so if you navigate to account feature you can see the same Header and Footer from the homepage.
